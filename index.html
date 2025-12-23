@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="logo"></div>
+            <div class="main-menu">
+                <p>MAIN MENU</p>
+                <div class="main-menu-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="index.html">Dashboard</a>
+                </div>  
+                <div class="main-menu-option">
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <a href="transaction.html">Add Transaction</a>
+                </div>
+                <div class="main-menu-option">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <a href="history.html">History</a>
+                </div>
+                <div class="main-menu-option">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <a href="reports.html">Reports</a>
+                </div>
+                <div class="main-menu-option">
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="settings.html">Settings</a>
+                </div>
+            </div>
+            <div class="financial">
+                <p>FINANCIAL CATEGORY</p>
+                <div class="main-menu-option">
+                    <i class="fa-solid fa-square-check"></i>
+                    <a href="income.html">Incomes</a>
+                </div>
+                <div class="main-menu-option">
+                    <i class="fa-solid fa-coins"></i> 
+                    <a href="debt.html">Debts</a>
+                </div>
+                <div class="main-menu-option">
+                    <i class="fa-solid fa-car"></i>
+                    <a href="transport.html">Transport</a>
+                </div>
+            </div>
+            <div class="settings">
+                <div>
+                    <button class="inr"><i class="fa-solid fa-indian-rupee-sign"></i>INR</button>
+                </div>
+                <div class="main-menu-option">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <a href="help.html">Help</a>
+                </div>
+                <div class="main-menu-option">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="navbar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search..." />
+                </div>
+                <div class="nav-right">
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-solid fa-gear"></i>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <div class="content">
+                <div class="total1">
+                    <div class="total-balance">
+                        <div class="balance"></div>
+                        <div class="balance-img"></div>
+                    </div>
+                    <div class="total-income">
+                        <div class="income"></div>
+                        <div class="income-img"></div>
+                    </div>
+                </div>
+                <div class="total2">
+                    <div class="total-income2"></div>
+                    <div class="total-expense"></div>
+                </div>            
+            </div>
+            <div class="information">
+                <div class="info1">
+                    <div class="recent"></div>
+                    <div class="cash-flow"></div>
+                </div>
+                <div class="info2">
+                    <div class="chart"></div>
+                    <div class="graph"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
